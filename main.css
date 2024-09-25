@@ -2,11 +2,11 @@ body {
     background-color: grey;
     border: solid 4px black;
 }
-#heading {
+.heading {
     font-size: 40px;
     text-align: center;
 }
-#firstflexbox {
+.firstflexbox {
     height: 400px;
     width: 1800px;
     border: solid 2px black;
@@ -14,7 +14,7 @@ body {
     text-align: center;
     background: rgb(92, 92, 165);
 }
-#par {
+.par {
     margin: 20px;
     font-size: 20px;
 }
@@ -24,10 +24,10 @@ body {
     height: 60px;
     font-size: 40px;
 }
-#codeone {
+.codeone {
     margin: 10px
 }
-#secondflexbox {
+.secondflexbox {
     height: 400px;
     width: 85%;
     border: solid 2px black;
@@ -44,7 +44,7 @@ body {
     font-size: 40px;
     text-align: center;
 }
-#picture {
+.picture {
     flex-grow: 2;
     border: solid 4px black;
     background-color: red;
@@ -52,29 +52,49 @@ body {
 
 }
 
-#none {
+.none {
     border: solid 4px black;
     background-color: rgb(230, 173, 19);
     height: 50%;
     flex-grow: 1;
 }
-#start {
+.start {
     border: solid 4px black;
     background-color: skyblue;
     height: 50%;
     flex-grow: 1;
     align-self: start;
+    text-align: center;
+    font-size: 50px;
 }
-#center {
+.center {
     border: solid 4px black;
     background-color: lightyellow;
     height: 50%;
     flex-grow: 1;
     align-self: center;
-}#end {
+    text-align: center;
+    font-size: 50px;
+}
+.end {
     border: solid 4px black;
     background-color: lightpink;
     height: 50%;
     flex-grow: 1;
     align-self: end;
+    text-align: center;
+    font-size: 50px;
+}
+.start:hover {
+    transition: .5s;
+    background-color: blue;
+    
+}
+.center:hover {
+    transition: .5s;
+    background-color: rgb(190, 190, 0);
+}
+.end:hover {
+    transition: .5s;
+    background-color: rgb(255, 96, 122);
 }
